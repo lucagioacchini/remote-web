@@ -20,7 +20,7 @@ See the [supported APIs](#supported-apis-and-functionalities) for more details.
 Before installing a local server, ensure that Docker is installed in your local machine.
 Then, open a terminal and run
 ```bash
-./server_install.sh
+$ ./server_install.sh
 ```
 
 If the installation succeeds, you should see the `web_scraper` container running on your local machine.
@@ -29,13 +29,13 @@ If the installation succeeds, you should see the `web_scraper` container running
 
 Install `remoteweb` package through
 ```bash
-pip3 install -e .
+$ pip3 install -e .
 ```
 or
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -e .
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip3 install -e .
 ```
 
 ## Supported APIs and Functionalities
