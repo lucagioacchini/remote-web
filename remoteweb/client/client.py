@@ -21,7 +21,7 @@ class WebBrowserClient():
             data=json.dumps(data), 
             headers=headers
         )
-        
+        print(response.text)
         return eval(response.text)
 
     def scrape(self, url):
